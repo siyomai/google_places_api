@@ -17,3 +17,20 @@ A simple lightweight API wrapper for the google places api
     iex> GooglePlacesApi.text_search("restaurants in soho")
     {:ok, %{results: results}}
 
+
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `google_places_api` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [
+    {:google_places_api, "~> 0.1.0"}
+  ]
+end
+```
+## Configure
+
+  config :google_places_api, key: "<add google api key herre>"
+
