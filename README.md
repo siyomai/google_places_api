@@ -12,10 +12,6 @@ A simple lightweight API wrapper for the google places api
   {:ok, %{results: results}}
 
 
-  GooglePlacesApi.text_search(query, result_limit \\ 5)
-  Search places via google places API using a query string.
-
-
   ## Text Search
 
   iex> GooglePlacesApi.text_search("restaurants in soho")
