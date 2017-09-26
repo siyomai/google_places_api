@@ -40,7 +40,7 @@ defmodule GooglePlacesApi.Mixfile do
       # This option is only needed when you don't want to use the OTP application name
       name: "google_places_api",
       # These are the default files included in the package
-      files: ["lib", "test", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+      files: ["lib", "test", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Arnaldo Tayao Jr"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/siyomai/google_places_api"}
