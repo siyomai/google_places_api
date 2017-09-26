@@ -6,7 +6,7 @@ A simple lightweight API wrapper for the google places api
   Search places via google places API using latitude and longitude within a 50 meter radius.
 
 
-  ## Examples
+  ## Search
 
   iex> GooglePlacesApi.search({51.51316, -0.13118}, "restaurant")
   {:ok, %{results: results}}
@@ -16,7 +16,7 @@ A simple lightweight API wrapper for the google places api
   Search places via google places API using a query string.
 
 
-  ## Examples
+  ## Text Search
 
   iex> GooglePlacesApi.text_search("restaurants in soho")
   {:ok, %{results: results}}
