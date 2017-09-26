@@ -20,8 +20,7 @@ A simple lightweight API wrapper for the google places api
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `google_places_api` to your list of dependencies in `mix.exs`:
+the package can be installed by adding `google_places_api` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -31,6 +30,6 @@ def deps do
 end
 ```
 ## Configure
-
-  config :google_places_api, key: "<add google api key herre>"
-
+  ```
+  config :google_places_api, key: "add google api key here"
+  ```
